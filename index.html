@@ -10,11 +10,10 @@
 <body>
     <main class="app">
         <section class="greeting">
-            <h2 class="title">
+            <h1 class="title">
                 What's up, 
                 <input type="text" id="name" placeholder="name here">
-                <!-- Hello I am a student of GJU, Hisar.I love to code and Web development -->
-            </h2>
+            </h1>
         </section>
 
         <section class="create-todo">
@@ -23,22 +22,22 @@
             <form id="new-todo-form">
                 <h4>What's on your todo list?</h4>
                 <input type="text" name="content" id="content" placeholder="e.g. Buy apple">
-
                 <h4>Pick a category</h4>
                 <div class="options">
 
                     <label>
                         <input type="radio" name="category" id="category1" value="business">
                         <span class="bubble business"></span>
-                        <div>Business</div>
+                        <div class="business-div">Business</div>
                     </label>
 
                     <label>
                         <input type="radio" name="category" id="category2" value="personal">
                         <span class="bubble personal"></span>
-                        <div>Personal</div>
+                        <div class="personal-div">Personal</div>
                     </label>
-
+                </div>
+                <div>
                     <input type="submit" value="Add todo">
                 </div>
             </form>
@@ -47,7 +46,7 @@
         <section class="todo-list">
             <h3>TODO LIST</h3>
             <div class="list" id="todo-list">
-                <div class="todo-item done">
+                <!-- <div class="todo-item done">
                     <label>
                         <input type="checkbox">
                         <span class="bubble business"></span>
@@ -61,9 +60,9 @@
                         <button class="edit">Edit</button>
                         <button class="delete">Delete</button>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="todo-item">
+                <!-- <div class="todo-item">
                     <label>
                         <input type="checkbox">
                         <span class="bubble personal"></span>
@@ -77,7 +76,7 @@
                         <button class="edit">Edit</button>
                         <button class="delete">Delete</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
     </main>
